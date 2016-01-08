@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Victor Hugo Roque">
+	<meta name="description" content="Pagina que recopila información de enfermedades">
+	<meta name="Keywords" content="Medicina, Enfermedades, Síntomas">
+	<title>Sickness - CIE10</title>
+	<link rel="shortcut icon" href="../icon/medical.ico">
+	<link rel="stylesheet" href="../css/main.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Aladin' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Tulpen+One' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript" src="../js/aparecer.js"></script>
+</head>
+<body class="animated fadeIn">
+	<header class="header-paginas">
+		<div class="menu-bar">
+			<img src="../icon/terminal.png" alt="icono desplegable"><span>Menú</span>
+		</div>
+		<nav id="menu-principal">		
+			<ul class="nav">
+				<li><a href="../Index.html">Inicio</a></li>
+				<li><a href="Quienes_somos.html">Quiénes Somos</a>
+					<ul class="nav2">
+						<li><a href="Quienes_somos.html#mision">Misión</a></li>
+						<li><a href="Quienes_somos.html#vision">Visión</a></li>
+					</ul>
+				</li>
+				<li><a href="Enfermedades.html">Enfermedades</a>
+					<ul class="nav2">
+						<li><a href="Enfermedades.html#alergia">Alergias</a></li>
+						<li><a href="Enfermedades.html#cancer">Cáncer</a></li>
+						<li><a href="Enfermedades.html#derma">Dermatológicas</a></li>
+						<li><a href="Enfermedades.html#diges">Digestivas</a></li>						
+						<li><a href="Enfermedades.html#infec">Infecciosas</a></li>
+						<li><a href="Enfermedades.html#respi">Respiratorias</a></li>
+					</ul>
+				</li>
+				<li><a href="CIE10.html">CIE 10</a></li>				
+				<li><a href="Estadisticas.html">Estadísticas</a></li>			
+				<li><a href="Contacto.html">Contacto</a></li>
+			</ul>		
+		</nav>
+	</header>
+	<section>
+		<div class="container cie10">
+			<hr class="faded" />
+				<h1>CIE10</h1>
+			<hr class="faded" />
+				<p>La CIE-10 es el acrónimo de la Clasificación internacional de enfermedades, décima versión correspondiente a la versión en español de la (en inglés) ICD, siglas de International Statistical Classification of Diseases and Related Health Problems) y determina la clasificación y codificación de las enfermedades y una amplia variedad de signos, síntomas, hallazgos anormales, denuncias, circunstancias sociales y causas externas de daños y/o enfermedad</p>
+				
+				<a href="http://www.who.int/" class="enlacecie10" target="_blank"><span>La OMS es la autoridad directiva y coordinadora de la acción sanitaria en el sistema de las Naciones Unidas.</span><img src="../image/cie10.jpg" class="imagencie10" alt="World Health Organization"></a>
+				<h2>Historia</h2>
+				<p>La CIE fue publicada por la Organización Mundial de la Salud (OMS). Se utiliza a nivel internacional para fines estadísticos relacionados con morbilidad y mortalidad, los sistemas de reintegro y soportes de decisión automática en medicina. Este sistema está diseñado para promover la comparación internacional de la recolección, procesamiento, clasificación y presentación de estas estadísticas. La CIE es la clasificación central de la WHO Family of International Classifications (WHO-FIC) (en español, la Familia de Clasificaciones Internacionales de la OMS)</p>
+				<p>La lista CIE-10 tiene su origen en la «Lista de causas de muerte», cuya primera edición la realizó el Instituto Internacional de Estadística en 1893. La OMS se hizo cargo de la misma en 1948, en la sexta edición, la primera en incluir también causas de morbilidad. A la fecha, la lista en vigor es la décima, y la OMS sigue trabajando en ella.</p>
+				<p>La CIE-10 se desarrolló en 1992 y su propósito fue rastrear estadísticas de mortalidad. La OMS publica actualizaciones menores anuales y actualizaciones mayores cada tres años.</p>
+				<h2>Codificación</h2>
+				<p>Cada afección puede ser asignada a una categoría y recibir un código de hasta seis caracteres de longitud (en formato de X00.00). Cada una de tales categorías puede incluir un grupo de enfermedades similares. Los siguientes códigos se utilizan por la <strong>Clasificación Estadística Internacional de Enfermedades y Problemas Relacionados con la Salud</strong>.</p>
+
+			<!--TABLA CIE10-->	
+			<table>
+				<caption class="tablatitulo">CIE 10</caption>
+				<!-- -->
+				<tr>
+					<th>Capítulo</th>
+					<th>Códigos</th>
+					<th>Título</th>	
+				</tr>
+				<tr>
+					<td>I</td>
+					<td>A00-B99</td>
+					<td>Ciertas enfermedades infecciosas y parasitarias</td>
+				</tr>
+				<tr>
+					<td>II</td>
+					<td>C00-D48</td>
+					<td>Neoplasias</td>
+				</tr>
+				<tr>
+					<td>III</td>
+					<td>D50-D89</td>
+					<td>Enfermedades de la sangre y de los órganos hematopoyéticos y otros trastornos que afectan el mecanismo de la inmunidad</td>
+				</tr>
+				<tr>
+					<td>IV</td>
+					<td>E00-E90</td>
+					<td>Enfermedades endocrinas, nutricionales y metabólicas</td>
+				</tr>
+				<tr>
+					<td>V</td>
+					<td>F00-F99</td>
+					<td>Trastornos mentales y del comportamiento</td>
+				</tr>
+				<tr>
+					<td>VI</td>
+					<td>G00-G99</td>
+					<td>Enfermedades del sistema nervioso</td>
+				</tr>
+				<tr>
+					<td>VII</td>
+					<td>H00-H59</td>
+					<td>Enfermedades del ojo y sus anexos</td>
+				</tr>
+				<tr>
+					<td>VIII</td>
+					<td>H60-H95</td>
+					<td>Enfermedades del oído y de la apófisis mastoides</td>
+				</tr>
+				<tr>
+					<td>IX</td>
+					<td>I00-I99</td>
+					<td>Enfermedades del sistema circulatorio</td>
+				</tr>
+				<tr>
+					<td>X</td>
+					<td>J00-J99</td>
+					<td>Enfermedades del sistema respiratorio</td>
+				</tr>
+				<tr>
+					<td>XI</td>
+					<td>K00-K93</td>
+					<td>Enfermedades del aparato digestivo</td>
+				</tr>
+				<tr>
+					<td>XII</td>
+					<td>L00-L99</td>
+					<td>Enfermedades de la piel y el tejido subcutáneo</td>
+				</tr>
+				<tr>
+					<td>XIII</td>
+					<td>M00-M99</td>
+					<td>Enfermedades del sistema osteomuscular y del tejido conectivo</td>
+				</tr>
+				<tr>
+					<td>XIV</td>
+					<td>N00-N99</td>
+					<td>Enfermedades del aparato genitourinario</td>
+				</tr>
+				<tr>
+					<td>XV</td>
+					<td>O00-O99</td>
+					<td>Embarazo, parto y puerperio</td>
+				</tr>
+				<tr>
+					<td>XVI</td>
+					<td>P00-P96</td>
+					<td>Ciertas afecciones originadas en el periodo perinatal</td>
+				</tr>
+				<tr>
+					<td>XVII</td>
+					<td>Q00-Q99</td>
+					<td>Malformaciones congénitas, deformidades y anomalías cromosómicas</td>
+				</tr>
+				<tr>
+					<td>XVIII</td>
+					<td>R00-R99</td>
+					<td>Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte</td>
+				</tr>
+				<tr>
+					<td>XIX</td>
+					<td>S00-T98</td>
+					<td>Traumatismos, envenenamientos y algunas otras consecuencias de causa externa</td>
+				</tr>
+				<tr>
+					<td>XX</td>
+					<td>V01-Y98</td>
+					<td>Causas externas de morbilidad y de mortalidad</td>
+				</tr>
+				<tr>
+					<td>XXI</td>
+					<td>Z00-Z99</td>
+					<td>Factores que influyen en el estado de salud y contacto con los servicios de salud</td>
+				</tr>
+				<tr>
+					<td>XXII</td>
+					<td>U00-U99</td>
+					<td>Códigos para situaciones especiales</td>
+				</tr>
+			</table>
+		</div>
+	</section>
+	<footer class="animated fadeIn footerpaginas">
+		<p>Nuestras redes sociales:</p>
+		<nav>
+            <ul class="social-icon">
+                    <li class="facebook"><a href="https://www.facebook.com/lthanatosl" target="_blank" data-tooltip="Facebook"></a></li>
+                    <li class="google"><a href="https://plus.google.com/100226305284685070061" target="_blank" data-tooltip="Google +"></a></li>
+                    <li class="youtube"><a href="https://www.youtube.com/user/lIMarCopIl" target="_blank" data-tooltip="Youtube"></a></li>
+            </ul>
+		</nav>
+		<p>&copy; 2015 Victor Roque. Todos los derechos reservados.</p>
+	</footer>
+</body>
+</html>
